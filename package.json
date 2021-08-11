@@ -1,0 +1,31 @@
+{
+  "name": "bobba",
+  "version": "1.0.0",
+  "description": "A Node.js wrapper for the Habbo API",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luuis/bobba.js.git"
+  },
+  "keywords": [
+    "api",
+    "wrapper",
+    "habbo"
+  ],
+  "author": {
+    "name": "Luis Enrique Suarez Rosas",
+    "email": "luuis.e@outlook.com",
+    "url": "https://github.com/luuis"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luuis/bobba.js/issues"
+  },
+  "homepage": "https://github.com/luuis/bobba.js#readme",
+  "dependencies": {
+    "isomorphic-unfetch": "^3.1.0"
+  },
+  "engines": {
+    "node": "^16 || ^15 || ^14 || ^13 || ^12 || ^11 || ^10 || ^9 || ^8 || ^7 || ^6 || ^4"
+  }
+}
