@@ -77,7 +77,7 @@ class HabboAPI {
             hotel = HabboHotel.COM;
         }
 
-        this.basePath = 'https://' + subdomain + '.habbo.' + hotel;
+        this.#basePath = 'https://' + subdomain + '.habbo.' + hotel;
     }
 
     /**
@@ -89,7 +89,7 @@ class HabboAPI {
      * @memberof HabboAPI
      */
     request(endpoint, options = {}) {
-        let url = this.basePath + endpoint
+        let url = this.#basePath + endpoint
 
         let headers = {
             'User-Agent': 'github.com/luuis/bobba.js v' + VERSION,
@@ -182,7 +182,7 @@ class HabboAPI {
     }
 
     /**
-     * Get an Achievement object from an Achievement
+     * Get an Achievement object from an Achievement id
      *
      * @param { string } identifier
      * @return { Promise<Achievement> } 

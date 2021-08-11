@@ -10,7 +10,7 @@
 
 Bobba.JS is a [Node.js](https://nodejs.org) wrapper that allows you to easily collect data from the (undocumented) Habbo API.
 
-See file `example.js` file on how to you could use this library.
+See the `example.js` file on how to you could use this library.
 
 ## How to use it
 
@@ -19,6 +19,9 @@ See file `example.js` file on how to you could use this library.
 ```sh-session
 npm install bobba
 ```
+
+## Documentation
+*Work in progress*
 
 ## Example
 

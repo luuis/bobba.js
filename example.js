@@ -1,10 +1,4 @@
-const { HabboAPI, HabboHotel } = require('./');
-
-// Initialize the HabboAPI class by passing the hotel to be queried in an object
-/*
-    Available hotels:
-    -
-*/
+const { HabboAPI, HabboHotel } = require('bobba');
 
 /**
  * Initialize the HabboAPI class by passing the hotel to be queried in an object
