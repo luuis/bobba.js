@@ -188,7 +188,7 @@ class HabboAPI {
      * @return { Promise<Achievement> } 
      * @memberof HabboAPI
      */
-    getAchievements(identifier) {
+    getAchievement(identifier) {
         let url = '/api/public/achievements/' + identifier;
 
         let config = {
