@@ -21,14 +21,17 @@ npm install bobba
 ```
 
 ## Documentation
-*Work in progress*
+* [Wiki Home](https://github.com/luuis/bobba.js/wiki)
+* [Get started](https://github.com/luuis/bobba.js/wiki/Get-started)
+* [Methods](https://github.com/luuis/bobba.js/wiki/Methods)
+* [Data types](https://github.com/luuis/bobba.js/wiki/Data-types)
 
 ## Example
 
 ```js
 const { HabboAPI, HabboHotel } = require('bobba');
 
-const api = new HabboAPI({ hotel: HabboHotel.ES });
+const bobba = new HabboAPI({ hotel: HabboHotel.ES });
 
-api.getHabbo('lDromedario').then(data => console.log(data));
+bobba.getHabbo('lDromedario').then(data => console.log(data));
 ```

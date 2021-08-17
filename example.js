@@ -15,8 +15,8 @@ const { HabboAPI, HabboHotel } = require('bobba');
  * - HabboHotel.IT
  * - HabboHotel.NL
  */
-const api = new HabboAPI({ hotel: HabboHotel.ES });
+const bobba = new HabboAPI({ hotel: HabboHotel.ES });
 
-api.getHabbo('lDromedario').then(habbo => {
-    api.getProfile(habbo.uniqueId).then(profile => console.log(profile));
+bobba.getHabbo('lDromedario').then(habbo => {
+    bobba.getProfile(habbo.uniqueId).then(profile => console.log(profile));
 });
