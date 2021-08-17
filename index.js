@@ -18,12 +18,12 @@ var HabboHotel = {
 
 /**
  * The model of Habbo
- * @typedef {{ uniqueId: string, habboName: string, motto: string, memberSince?: Date, lastAccessTime?: Date, online?: boolean, figureString?: string, habboFigure?: string, profileVisible?: boolean, selectedBadges?: Badge[], online?: boolean, currentLevel?: number, currentLevelCompletePercent?: number, totalExperience?: number, starGemCount?: number }} Habbo
+ * @typedef {{ uniqueId: string, habboName: string, motto: string, memberSince?: number, lastAccessTime?: number, online?: boolean, figureString?: string, habboFigure?: string, profileVisible?: boolean, selectedBadges?: Badge[], currentLevel?: number, currentLevelCompletePercent?: number, totalExperience?: number, starGemCount?: number }} Habbo
  */
 
 /**
  * The model of Photo
- * @typedef {{ id: string, previewUrl: string, tags: string[], creatorUniqueId: string, creatorName: string, creatorId: string, type: string, url: string, takenOn: int, roomId: string, likes: string[] }} Photo
+ * @typedef {{ id: string, previewUrl: string, tags: string[], creatorUniqueId: string, creatorName: string, creatorId: string, type: string, url: string, takenOn: number, roomId: string, likes: string[] }} Photo
  */
 
 /**
@@ -33,7 +33,7 @@ var HabboHotel = {
 
 /**
  * The model of Group
- * @typedef {{ id: string, name: string, description: string, type: string, primaryColour?: string, secondaryColour?: string, badgeCode?: string, roomId: string, isAdmin?: true }} Group
+ * @typedef {{ id: string, name: string, description: string, type: string, primaryColour?: string, secondaryColour?: string, badgeCode?: string, roomId: string, isAdmin?: boolean }} Group
  */
 
 /**
@@ -43,7 +43,7 @@ var HabboHotel = {
 
 /**
  * The model of Achievement
- * @typedef {{ id: string, name: string, creationTime: Date, state: string, category: string, requirements?: string[], level?: number, score?: number }} Achievement
+ * @typedef {{ id: string, name: string, creationTime: number, state: string, category: string, requirements?: string[], level?: number, score?: number }} Achievement
  */
 
 /**
