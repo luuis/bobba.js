@@ -18,7 +18,7 @@ var HabboHotel = {
 
 /**
  * The model of Habbo
- * @typedef {{ uniqueId: string, habbo: string, motto: string, memberSince?: number, lastAccessTime?: number, online?: boolean, figureString?: string, habboFigure?: string, profileVisible?: boolean, selectedBadges?: Badge[], currentLevel?: number, currentLevelCompletePercent?: number, totalExperience?: number, starGemCount?: number }} Habbo
+ * @typedef {{ uniqueId: string, name: string, motto: string, memberSince?: number, lastAccessTime?: number, online?: boolean, figureString?: string, habboFigure?: string, profileVisible?: boolean, selectedBadges?: Badge[], currentLevel?: number, currentLevelCompletePercent?: number, totalExperience?: number, starGemCount?: number }} Habbo
  */
 
 /**
