@@ -18,7 +18,7 @@ var HabboHotel = {
 
 /**
  * The model of Habbo
- * @typedef {{ uniqueId: string, habboName: string, motto: string, memberSince?: number, lastAccessTime?: number, online?: boolean, figureString?: string, habboFigure?: string, profileVisible?: boolean, selectedBadges?: Badge[], currentLevel?: number, currentLevelCompletePercent?: number, totalExperience?: number, starGemCount?: number }} Habbo
+ * @typedef {{ uniqueId: string, habbo: string, motto: string, memberSince?: number, lastAccessTime?: number, online?: boolean, figureString?: string, habboFigure?: string, profileVisible?: boolean, selectedBadges?: Badge[], currentLevel?: number, currentLevelCompletePercent?: number, totalExperience?: number, starGemCount?: number }} Habbo
  */
 
 /**
@@ -48,7 +48,7 @@ var HabboHotel = {
 
 /**
  * The model of Profile
- * @typedef {{ habbo: Habbo, friends: Habbo[], groups: Group[], rooms: Room[], badges: Badge[] }} Profile
+ * @typedef {{ user: Habbo, friends: Habbo[], groups: Group[], rooms: Room[], badges: Badge[] }} Profile
  */
 
 const VERSION = require('./package.json').version;
